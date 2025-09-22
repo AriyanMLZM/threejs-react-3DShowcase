@@ -1,70 +1,59 @@
-# React + TypeScript + Vite
+# Minimal 3d Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A very simple 3d app that can be used to showcase a 3d model or product.
 
-Currently, two official plugins are available:
+## Techs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<table>
+  <tr align="center">
+    <td>Three.js</td>
+    <td>React.js</td>
+    <td>Typescript</td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://i.postimg.cc/GhbBDr6z/threejs.png" width="35px" /></td>
+    <td><img  src="https://i.postimg.cc/7LR71cSh/react.png" width="35px"/></td>
+    <td><img src="https://i.postimg.cc/wjnzcgSY/ts.png" width="33px" /></td>
+  </tr>
+  <tr align="center">
+    <td>Tailwindcss</td>
+    <td>Gsap</td>
+    <td>Blender</td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://i.postimg.cc/3NTknHN8/tailwind.png" width="40px" /></td>
+    <td><img  src="https://i.postimg.cc/7L2wxs9z/gsap.png" width="40px"/></td>
+    <td><img  src="https://i.postimg.cc/RVSScTCr/blender.png" width="40px"/></td>
+  </tr>
+  <tr align="center">
+    <td>Vite</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://i.postimg.cc/W1zX0WDB/vite.png" width="35px" /></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Main
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Orbit Controls to explore the scene.
+- View Hotspots to enhance the showcase.
+- Smooth Camera animations to to professionalize the showcase.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Technical
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Using **React-Three-Fiber** & **React-Three-Drei** to use the best of Three.js in React.js.
+- Using **Gsap** for smooth camera animations.
+- Using **Tailwindcss** for styling.
+- Using **Vite** as project builder.
+- Complete **CSR** app with React.js.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+##
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# threejs-react-3DShowcase
+[![](https://i.postimg.cc/pTq6WPjr/card.png)](https://github.com/AriyanMLZM)
