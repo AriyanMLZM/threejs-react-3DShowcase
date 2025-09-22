@@ -43,8 +43,7 @@ A very simple 3d app that can be used to showcase a 3d model or product.
 
 - Orbit Controls to explore the scene.
 - View Hotspots to enhance the showcase.
-- Smooth Camera animations to to professionalize the showcase.
-
+- Smooth Camera animations to professionalize the showcase.
 
 ### Technical
 
@@ -52,6 +51,7 @@ A very simple 3d app that can be used to showcase a 3d model or product.
 - Using **Gsap** for smooth camera animations.
 - Using **Tailwindcss** for styling.
 - Using **Vite** as project builder.
+- Using **Typescript** for better development.
 - Complete **CSR** app with React.js.
 
 ##
