@@ -1,6 +1,8 @@
 # Minimal 3d Showcase
 
-A very simple 3d app that can be used to showcase a 3d model or product.
+3d app that can be used to showcase a 3d model or product.
+
+[![3d Showcase](https://img.youtube.com/vi/TtGYcrUBqYc/0.jpg)](https://www.youtube.com/watch?v=TtGYcrUBqYc)
 
 ## Techs
 
