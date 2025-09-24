@@ -2,7 +2,8 @@
 
 3d app that can be used to showcase a 3d model or product.
 
-[![3d Showcase](https://img.youtube.com/vi/TtGYcrUBqYc/0.jpg)](https://www.youtube.com/watch?v=TtGYcrUBqYc)
+[![Youtube 3d Showcase](https://i.postimg.cc/g2ts4n46/thum.png)](https://www.youtube.com/watch?v=TtGYcrUBqYc)
+[👆🏼 YouTube](https://www.youtube.com/watch?v=TtGYcrUBqYc)
 
 ## Techs
 
